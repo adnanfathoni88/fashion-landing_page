@@ -1,0 +1,15 @@
+/* Sponsor auto scroll */
+.sponsor-group {
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
