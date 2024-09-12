@@ -1,0 +1,507 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MEGAMART</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <!-- icon font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- GREENMIND -->
+    <!-- POPPINS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+
+<body class="bg-white">
+
+    <!-- header -->
+    <!-- <section id="header">
+        <div class="px-32 py-3.5 bg-[#F5F5F5]">
+            <div class="flex justify-between">
+                <span class="text-slate-500">
+                    Welcome to worldwide Megamart!
+                </span>
+                <div class="flex">
+                    <div class="px-4 border-r-2">
+                        <i class="text-custom-blue fa-solid fa-location-dot"></i>
+                        <span class="text-slate-500 text-sm font-light">Deliver to</span><span
+                            class="text-slate-500 text-sm font-semibold font-semibold">
+                            423651</span>
+                    </div>
+                    <div class="px-4 border-r-2">
+                        <i class="text-custom-blue fa-solid fa-truck"></i>
+                        <span class="text-slate-500 text-sm font-light">Track your order</span>
+                    </div>
+                    <div class="px-4">
+                        <i class="text-custom-blue fa-solid fa-tag"></i>
+                        <span class="text-slate-500 text-sm font-light">All Offers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- navbar -->
+    <!-- <section id="navbar">
+        <div class="px-32">
+            <div class="py-5 flex justify-between items-center">
+                <div class="nav-left flex items-center">
+                    <div class=" toogle">
+                        <div class="bg-custom-blue-light px-4 py-3 w-fit rounded-lg">
+                            <i class="text-custom-blue fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <h4 class="text-custom-blue text-2xl font-bold mx-4">MegaMart</h4>
+                </div>
+                <div class="nav-right flex items-center gap-8">
+                    <div class="search bg-custom-blue-light p-4 rounded-lg">
+                        <i class="text-custom-blue font-light fa-solid fa-search"></i>
+                        <input class="pl-2.5 bg-transparent pr-44" type="text"
+                            placeholder="Search essentials, groceries and more...">
+                        <i class="text-custom-blue font-light fa-solid fa-list-ul"></i>
+                    </div>
+                    <div class="flex gap-5">
+                        <div class="user">
+                            <i class="text-custom-blue pr-2 fa-solid fa-user"></i>
+                            <a class="text-slate-500 font-semibold" href="">Sign Up/Sign
+                                In</a>
+                        </div>
+                        <div class="border-r-2"></div>
+                        <div class="cart">
+                            <i class="text-custom-blue pr-2 fa-solid fa-cart-shopping"></i>
+                            <a class="text-slate-500 font-semibold" href="">Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- category -->
+    <!-- <section id="category">
+        <div class="px-32 py-4 border-y flex justify-between">
+            <button class="bg-custom-blue font-sm text-white py-2 px-3.5 rounded-full"><span class="text-sm">Groceries
+                </span> <i class="pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"> <span class="text-sm">Premium
+                    Fruits </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"> <span class="text-sm">Home &
+                    Kitchen </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"><span class="text-sm">Fashion
+                </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"><span class="text-sm">Electronics
+                </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"><span class="text-sm">Beauty
+                </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"> <span class="text-sm">Home
+                    Improvement </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+            <button class="bg-custom-blue-light text-black py-2 px-3.5 rounded-full"><span class="text-sm"> Sports, Toys
+                    & Luggage
+                </span> <i class="text-custom-blue pl-2 fa-solid fa-angle-down"></i></button>
+        </div>
+    </section> -->
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="px-4 md:px-32">
+            <div class="py-5 relative">
+                <div class="absolute z-10 -right-2 md:-right-8 inset-y-0 flex w-fit items-center">
+                    <div class="button-next bg-custom-blue-light px-3 py-1 md:px-8 md:py-6 w-fit rounded-full">
+                        <i class="text-custom-blue fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="absolute z-10 -left-2 md:-left-8 inset-y-0 flex w-fit items-center">
+                    <div class="button-prev bg-custom-blue-light px-3 py-1 md:px-8 md:py-6 w-fit rounded-full">
+                        <i class="text-custom-blue fa-solid fa-chevron-left"></i>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-2">
+                            <img class="w-full" src="./assets/img/ecom/banner/banner-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide px-2">
+                            <img class="w-full" src="./assets/img/ecom/banner/banner-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- smartphone -->
+    <section id="smartphone">
+        <div class="px-4 md:mx-32 mt-8 md:mt-32 mb-8 md:mb-24">
+            <div class="flex justify-between border-b items-center">
+                <h2 class=" border-b-4 border-custom-blue w-fit pb-2 text-slate-500 text-sm md:text-lg font-semibold ">
+                    Grab the
+                    best
+                    deal on <span class=" text-custom-blue text-sm">Smartphones</span></h2>
+                <button class="bg-transparent hover:font-semibold">View All <i
+                        class="text-custom-blue pl-2 fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="product-group grid grid-cols-2 lg:grid-cols-5 gap-4 mt-4 md:mt-10">
+                <div
+                    class="product-item cursor-pointer w-full border rounded-2xl hover:shadow-xl hover:border-custom-blue hover:border-2 ">
+                    <div class="product-image h-[174px] relative bg-[#F5F5F5] flex justify-center p-4 rounded-t-2xl">
+                        <div
+                            class="absolute bg-custom-blue top-0 right-0 text-white rounded-bl-2xl rounded-tr-2xl px-2.5 py-2">
+                            <div class="flex flex-col">
+                                <span class="font-sm">20% <br> OFF</span>
+                            </div>
+                        </div>
+                        <img src="./assets/img/ecom/product/produk-1.png" alt="">
+                    </div>
+                    <div class="product-info p-2 md:p-3">
+                        <h4 class="font-semibold text-sm md:text-base mb-2.5">Galaxy S22 Ultra</h4>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <span class="font-bold">$999.99</span>
+                            <span class="line-through text-slate-400">$129 9.99</span>
+                        </div>
+                        <hr class="my-2.5">
+                        <div class="text-green-600 font-semibold"> Save $300.00</div>
+                    </div>
+                </div>
+                <div
+                    class="product-item cursor-pointer w-full border rounded-2xl hover:shadow-xl hover:border-custom-blue hover:border-2 ">
+                    <div class="product-image h-[174px] relative bg-[#F5F5F5] flex justify-center p-4 rounded-t-2xl">
+                        <div
+                            class="absolute bg-custom-blue top-0 right-0 text-white rounded-bl-2xl rounded-tr-2xl px-2.5 py-2">
+                            <div class="flex flex-col">
+                                <span class="font-sm">20% <br> OFF</span>
+                            </div>
+                        </div>
+                        <img src="./assets/img/ecom/product/produk-2.png" alt="">
+                    </div>
+                    <div class="product-info p-2 md:p-3">
+                        <h4 class="font-semibold text-sm md:text-base mb-2.5">Galaxy M13 (4GB | 64 GB )</h4>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <span class="font-bold">$999.99</span>
+                            <span class="line-through text-slate-400">$129 9.99</span>
+                        </div>
+                        <hr class="my-2.5">
+                        <div class="text-green-600 font-semibold"> Save $300.00</div>
+                    </div>
+                </div>
+                <div
+                    class="product-item cursor-pointer w-full border rounded-2xl hover:shadow-xl hover:border-custom-blue hover:border-2 ">
+                    <div class="product-image h-[174px] relative bg-[#F5F5F5] flex justify-center p-4 rounded-t-2xl">
+                        <div
+                            class="absolute bg-custom-blue top-0 right-0 text-white rounded-bl-2xl rounded-tr-2xl px-2.5 py-2">
+                            <div class="flex flex-col">
+                                <span class="font-sm">20% <br> OFF</span>
+                            </div>
+                        </div>
+                        <img src="./assets/img/ecom/product/produk-3.png" alt="">
+                    </div>
+                    <div class="product-info p-2 md:p-3">
+                        <h4 class="font-semibold text-sm md:text-base mb-2.5">Galaxy M33 (4GB | 64 GB )</h4>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <span class="font-bold">$999.99</span>
+                            <span class="line-through text-slate-400">$129 9.99</span>
+                        </div>
+                        <hr class="my-2.5">
+                        <div class="text-green-600 font-semibold"> Save $300.00</div>
+                    </div>
+                </div>
+                <div
+                    class="product-item cursor-pointer w-full border rounded-2xl hover:shadow-xl hover:border-custom-blue hover:border-2 ">
+                    <div class="product-image h-[174px] relative bg-[#F5F5F5] flex justify-center p-4 rounded-t-2xl">
+                        <div
+                            class="absolute bg-custom-blue top-0 right-0 text-white rounded-bl-2xl rounded-tr-2xl px-2.5 py-2">
+                            <div class="flex flex-col">
+                                <span class="font-sm">20% <br> OFF</span>
+                            </div>
+                        </div>
+                        <img src="./assets/img/ecom/product/produk-4.png" alt="">
+                    </div>
+                    <div class="product-info p-2 md:p-3">
+                        <h4 class="font-semibold text-sm md:text-base mb-2.5">Galaxy M53 (4GB | 64 GB )</h4>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <span class="font-bold">$999.99</span>
+                            <span class="line-through text-slate-400">$129 9.99</span>
+                        </div>
+                        <hr class="my-2.5">
+                        <div class="text-green-600 font-semibold"> Save $300.00</div>
+                    </div>
+                </div>
+                <div
+                    class="product-item cursor-pointer w-full border rounded-2xl hover:shadow-xl hover:border-custom-blue hover:border-2 ">
+                    <div class="product-image h-[174px] relative bg-[#F5F5F5] flex justify-center p-4 rounded-t-2xl">
+                        <div
+                            class="absolute bg-custom-blue top-0 right-0 text-white rounded-bl-2xl rounded-tr-2xl px-2.5 py-2">
+                            <div class="flex flex-col">
+                                <span class="font-sm">20% <br> OFF</span>
+                            </div>
+                        </div>
+                        <img src="./assets/img/ecom/product/produk-5.png" alt="">
+                    </div>
+                    <div class="product-info p-2 md:p-3">
+                        <h4 class="font-semibold text-sm md:text-base mb-2.5">Galaxy S22 Ultra</h4>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <span class="font-bold">$999.99</span>
+                            <span class="line-through text-slate-400">$129 9.99</span>
+                        </div>
+                        <hr class="my-2.5">
+                        <div class="text-green-600 font-semibold"> Save $300.00</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- top-categories -->
+    <section id="top-categories">
+        <div class="mx-4 md:mx-32 mt-8 md:mt-32 mb-8 md:mb-24">
+            <div class="flex justify-between border-b items-center">
+                <h2 class=" border-b-4 border-custom-blue w-fit pb-2 text-slate-500 text-sm md:text-lg font-semibold ">
+                    Shop From
+                    <span class=" text-custom-blue">Top Categories</span>
+                </h2>
+                <button class="bg-transparent hover:font-semibold">View All <i
+                        class="text-custom-blue pl-2 fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="categories-group flex justify-between grid grid-cols-4 lg:grid-cols-7 gap-4 mt-10">
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-6 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-1.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Mobile</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-2.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Cosmetic</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-3.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Electronics</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-4.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Furniture</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-5.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Watches</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-6.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Decor</span>
+                </div>
+                <div class="categories-item cursor-pointer flex flex-col items-center group">
+                    <div
+                        class="bg-[#F5F5F5] p-4 md:p-8 rounded-full flex justify-center items-center h-20 w-20 md:w-[132px] md:h-[132px]  group-hover:border-custom-blue group-hover:border group-hover:shadow-xl ">
+                        <img class="h-full object-cover" src="./assets/img/ecom/categories/cat-7.png" alt="">
+                    </div>
+                    <span class="mt-5 group-hover:font-semibold">Accessories</span>
+                </div>
+            </div>
+    </section>
+
+    <!-- top-electronic -->
+    <section id="top-electronic">
+        <div class="mx-4 md:mx-32 mt-8 mb-12 md:mt-32 md:mb-24">
+            <div class="flex justify-between border-b items-center">
+                <h2 class=" border-b-4 border-custom-blue w-fit pb-2 text-slate-500 text-sm md:text-lg font-semibold ">
+                    Top
+                    <span class=" text-custom-blue">Electronics Brands</span>
+                </h2>
+                <button class="bg-transparent hover:font-semibold">View All <i
+                        class="text-custom-blue pl-2 fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="electronic-group flex justify-between grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 md:mt-10">
+                <div class="electronic-item flex justify-center rounded-2xl w-full">
+                    <img class="w-full object-cover" src="./assets/img/ecom/top-electronic/top-1.png" alt="">
+                </div>
+                <div class="electronic-item flex justify-center rounded-2xl w-full">
+                    <img class="w-full object-cover" src="./assets/img/ecom/top-electronic/top-2.png" alt="">
+
+                </div>
+                <div class="electronic-item flex justify-center rounded-2xl w-full">
+                    <img class="w-full object-cover" src="./assets/img/ecom/top-electronic/top-3.png" alt="">
+
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Essentials -->
+    <section id="Essentials">
+        <div class="mx-4 md:mx-32 mt-8 mb-12 md:mt-32 md:mb-24">
+            <div class="flex justify-between border-b items-center">
+                <h2 class=" border-b-4 border-custom-blue w-fit pb-2 text-slate-500 text-sm md:text-lg font-semibold ">
+                    Daily
+                    <span class=" text-custom-blue">Essentials</span>
+                </h2>
+                <button class="bg-transparent hover:font-semibold">View All <i
+                        class="text-custom-blue pl-2 fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="essential-group flex justify-between grid grid-cols-3 lg:grid-cols-6 gap-4 mt-10">
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-1.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Daily</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-2.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Vegitables</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-3.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Fruits</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-4.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Strowberry</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-5.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Manggo</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+                <div class="essential-item cursor-pointer group flex flex-col items-center">
+                    <div
+                        class="mb-5 p-4 flex items-center bg-[#F5F5F5] h-full md:w-[187px] md:h-[187px] rounded-2xl group-hover:border group-hover:border-2 group-hover:border-custom-blue group-hover:shadow-xl ">
+                        <img class="w-full" src="./assets/img/ecom/essential/est-6.png" alt="">
+                    </div>
+                    <span class="text-slate-400 text-sm">Cherry</span>
+                    <h5 class="text-slate-950 font-semibold text-sm md:text-lg text-center">UP to 50% OFF</h5>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="relative bg-custom-blue px-4 md:px-32 ">
+        <div class="footer-group relative z-10 md:mb-20 grid gap-8 grid-cols-2 lg:grid-cols-4 py-10 md:py-20">
+            <div class="footer-item flex flex-col gap-4 text-white col-span-2 ">
+                <div>
+                    <h4 class="text-2xl font-bold">MegaMart</h4>
+                </div>
+                <div class="flex flex-col gap-3 items-start">
+                    <h5 class="font-semibold text-md">Contact Us</h5>
+                    <div class="flex gap-2 items-center">
+                        <i class="fa-brands fa-whatsapp text-4xl"></i>
+                        <div class="flex flex-col">
+                            <span>Whatsapp</span>
+                            <span class="text-white/75">+62 812 3456 7890</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <i class="fa-solid fa-phone text-4xl"></i>
+                        <div class="flex flex-col">
+                            <span>Call Us</span>
+                            <span class="text-white/75">+62 812 3456 7890</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-3 text-md">Download App</h5>
+                    <div class="flex gap-2 w-full">
+                        <div class="w-full md:w-40">
+                            <img class="w-full h-full object-cover" src="./assets/img/ecom/downlad-app/app-2.png"
+                                alt="">
+                        </div>
+                        <div class="w-full md:w-40">
+                            <img class="w-full h-full object-cover" src="./assets/img/ecom/downlad-app/app-1.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item md:px-2 text-white">
+                <h5 class="font-semibold pb-2 border-b-4 text-md">
+                    Most Popular Categories
+                </h5>
+                <div class="flex flex-col gap-2 py-4">
+                    <span class="text-white/75 text-sm">Smartphones</span>
+                    <span class="text-white/75 text-sm">Electronics</span>
+                    <span class="text-white/75 text-sm">Home & Kitchen</span>
+                    <span class="text-white/75 text-sm">Fashion</span>
+                    <span class="text-white/75 text-sm">Beauty</span>
+                    <span class="text-white/75 text-sm">Home Improvement</span>
+                    <span class="text-white/75 text-sm">Sports, Toys & Luggage</span>
+                </div>
+            </div>
+            <div class="footer-item md:px-2 text-white">
+                <h5 class="font-semibold pb-2 border-b-4 text-md">
+                    Customer Services
+                </h5>
+                <div class="flex flex-col gap-2 py-4">
+                    <span class="text-white/75 text-sm">About Us</span>
+                    <span class="text-white/75 text-sm">Terms & Conditions</span>
+                    <span class="text-white/75 text-sm">FAQ</span>
+                    <span class="text-white/75 text-sm">Privacy Policy</span>
+                    <span class="text-white/75 text-sm">E-waste Policy</span>
+                    <span class="text-white/75 text-sm">Cancellation & Return Policy</span>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/25 text-center text-white/75 py-8">
+            <span>© 2022 All rights reserved. Reliance Retail Ltd.</span>
+        </div>
+
+        <img class="absolute z-0 top-0 right-0" src="./assets/img/ecom/footer/component-1.png" alt="">
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+        });
+
+    </script>
+</body>
+
+</html>
